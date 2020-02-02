@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-family: sans-serif;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .child {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .wrap-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  
+  
+  .login-page {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .login-form {
+    flex-basis: 25%;
+    padding: 20px;
+  }
+  
+  .app-logo {
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  .login-form {
+    margin-top: 20px;
+  }
+  
+  .form-field {
+    margin-top: 15px;
+  }
+  
+  .form-field input {
+    width: calc(100% - 14px);
+    padding: 16px 2px 16px 10px;
+    font-size: 14px;
+    border: 1px solid #aaaaaa;
+  }
+  
+  .login-form span {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .login-form .link {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .app-button {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    background: #bd031a;
+    color: white;
+  }
+  
+  
+  .header {
+    background: #bd031a;
+    color: #ffffff;
+    width: 100vw;
+  }
+  
+  .header-content {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+    height: 50px;
+  }
+  
+  .user-icon {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  
+  .restaurant-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .restaurant-card {
+    width: 300px;
+    padding: 20px 10px;
+    color: #7a7a7a;
+    cursor: pointer;
+  }
+  
+  .restaurant-logo {
+    width: 100%;
+    height: 175px;
+  }
+  
+  .restaurant-name {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #696969;
+  }
+  
+  .restaurant-desc {
+    font-size: 14px;
+  }
+  
+  .restaurant-location {
+    margin-top: 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .restaurant-review {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  
+  
+  
+  .order-page {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .order .child {
+    width: 72%;
+  }
+  .order {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  
+  .order i {
+    font-size: 13px;
+  }
+  
+  .items {
+    flex-basis: 75%;
+  }
+  
+  .restaurant {
+    background-color: #332323;
+    color: white;
+    padding: 30px 0;
+  }
+  
+  .restaurant .title {
+    margin-bottom: 15px;
+  }
+  
+  .restaurant .child {
+    font-weight: bold;
+  }
+  
+  .restaurant .address {
+    font-size: 14px;
+  }
+  
+  .order-items .title {
+    margin: 30px 0 10px;
+  }
+  
+  .order-items .item-container {
+    padding: 20px 0;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .order-items .description {
+    color: gray;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .description .content {
+    flex-basis: 75%;
+    line-height: 3;
+  }
+  .description .action {
+    flex-basis: 25%;
+    text-align: right;
+  }
+  
+  
+  .order-items .cost {
+    color: gray;
+    font-size: 16px;
+  }
+  
+  
+  
+  .my-cart {
+    flex-basis: 25%;
+    padding: 15px 40px;
+    background-color: #f1f1f1;
+    min-height: 90vh;
+  }
+  .my-cart .dim {
+    color: dimgray;
+  }
+  
+  .my-cart .title {
+    margin: 30px 0 10px;
+  }
+  
+  .my-cart .item-container {
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+  }
+  
+  .item-container .item-title {
+    line-height: 2;
+  }
+  
+  .my-cart .item-content {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item-content span {
+    margin-right: -5px;
+  }
+  
+  .item-content button,
+  .item-content input {
+    line-height: 1.6;
+    width: 25px;
+    border: 1px solid gray;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    color: dimgray;
+  }
+  
+  .item-content input {
+    text-align: center;
+    background-color: white;
+  }
+  
+  .item-content .content-left {
+    flex-basis: 75%;
+    line-height: 2;
+  }
+  
+  .item-content .content-right {
+    flex-basis: 25%;
+    line-height: 2;
+    text-align: right;
+  }
+  
+  .my-cart .cost {
+    color: gray;
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .my-cart .total-container {
+    margin-top: 20px;
+  }
+
+  /* to be copied */
+  

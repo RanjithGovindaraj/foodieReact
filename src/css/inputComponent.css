@@ -1,0 +1,6 @@
+.form-input{
+    border:1px solid lightgrey;
+    padding: 5px;
+    flex-basis: 100%;
+    margin: 20px 0;
+}

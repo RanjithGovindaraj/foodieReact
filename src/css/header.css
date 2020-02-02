@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-family: sans-serif;    
+}
+.header-bg{
+    height: 10vh;
+    background-color: #cc2216;
+    padding: 5px;
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-logo{
+    height: 10vh; 
+}
+
